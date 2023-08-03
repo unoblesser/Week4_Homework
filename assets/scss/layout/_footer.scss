@@ -1,4 +1,134 @@
 .footer{
-  background: #69F0AE;
-  font-size: 64px;
+  padding-top: 48px;
+  padding-bottom: 32px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+@media(max-width: 375px){
+  .footer{
+      padding-bottom: 24px;
+  }
+  .row{
+      width: 80%;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+  }
+}
+.section0{
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media(max-width: 375px){
+  .section0{
+      width: 30%;
+      flex-direction: column;
+      margin-bottom: 0px;
+  }
+}
+.menu1{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialicon{
+  width: 18%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* socialicon size */
+.mw48{
+  max-width: 48px;
+}
+@media(max-width: 768px){
+  .menu1{
+      width: 55%;
+  }
+  .socialicon{
+      width: 30%;
+  }
+  .mw48{
+      max-width: 36px;
+  }
+}
+@media(max-width: 375px){
+  .menu1{
+      width: 0%;
+      height: 0px;
+  }
+  .menu1 a{
+      font-size: 0px;    
+  }
+  .socialicon{
+      width: 20%;
+      margin-bottom: 8px;
+  }
+  .mw48{
+      max-width: 32px;
+  }
+}
+.mr32{
+  margin-right: 32px;
+}
+.call{
+  font-size: 5vmin;
+  margin-bottom: 8px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.fz36{
+  font-size: 36px;
+}
+.mail{
+  font-size: 5vmin;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.fz40{
+  font-size: 40px;
+}
+.mr22{
+  margin-right: 22px;
+}
+.section1{
+  font-size: 14px;
+  margin-top: 32px;
+  padding-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ffffff;
+}
+@media(max-width: 375px){
+  .section1{
+      flex-direction: column;
+  }
+  .section1 p{
+      font-size: 4vmin;
+      margin-bottom: 8px;
+  }
+}
+.policy{
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+@media(max-width: 768px){
+  .policy{
+      width: 20%;
+  }
+}
+@media(max-width: 375px){
+  .policy{
+      width: 30%;
+      flex-direction: column;
+  }
+  .policy a{
+      margin-bottom: 8px;
+  }
 }

@@ -1,4 +1,41 @@
 .header{
-  background: #69F0AE;
-  font-size: 64px;
+  padding: 16px 12px;
+  display: flex;
+  justify-content: space-between;
+}
+@media(max-width: 375px){
+  .header{
+      flex-direction: column;
+      padding: 0px 0px;
+  }
+}
+/* logo size */
+.mw80{
+  max-width: 80px;
+}
+.menu0{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media(max-width: 768px){
+  .menu0{
+      width: 60%;
+  }
+}
+@media(max-width: 375px){
+  .mw80{
+      margin: 16px 12px;
+  }
+  .menu0{
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .menu0 li{
+      width: 50%;
+      text-align: center;
+      border: 1px solid #ffffff;
+  }
 }
