@@ -13,6 +13,7 @@
       display: flex;
       flex-direction: row-reverse;
       justify-content: space-between;
+      align-items: center;
   }
 }
 .section0{
@@ -49,7 +50,7 @@
       width: 55%;
   }
   .socialicon{
-      width: 30%;
+      width: 40%;
   }
   .mw48{
       max-width: 36px;
@@ -64,7 +65,7 @@
       font-size: 0px;    
   }
   .socialicon{
-      width: 20%;
+      width: 100%;
       margin-bottom: 8px;
   }
   .mw48{

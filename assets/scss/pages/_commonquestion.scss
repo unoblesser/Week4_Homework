@@ -20,6 +20,7 @@
     max-width: 856px;
 }
 
+
 .darkgray{
     color: #495057;
 }
@@ -37,11 +38,11 @@
 .mr16{
     margin-right: 16px;
 }
-.mtb8{
-    margin: 8px;
+.ptb8{
+    padding: 8px 0px;
 }
-.ml24{
-    margin-left: 24px;
+.pl24{
+    padding-left: 24px;
 }
 .ptb6{
     padding: 6px;
@@ -49,14 +50,18 @@
 .pl12{
     padding-left: 12px;
 }
-.w-25{
-    width: 25%;
+.w-select{
+    max-width: 304px;
 }
-.mw-40{
-    max-width: 40%;
+.shopimg{
+    width: 41.5%;
+    margin-right: 24px;
 }
-.mw-57{
-    max-width: 57%;
+.map-image{
+    width: 58%;
+}
+.shopinfo{
+    display: flex;
 }
 .mb8{
     margin-bottom: 8px;
@@ -74,6 +79,23 @@
     border: 1px solid #CED4DA;
 }
 @media(max-width: 768px){
+    .img-size{
+        width: 45%;
+        margin-right: 24px;
+    }
+    .shopinfo{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .shopimg{
+        width: 100%;
+        margin-bottom: 24px;
+        margin-right: 0px;
+        display: flex;
+    }
+    .map-image{
+        width: 100%;
+    }
     .mw856{
         max-width: 696px;
     }
@@ -82,6 +104,15 @@
     }
 }
 @media(max-width: 375px){
+    .img-size{
+        width: 100%;
+    }
+    .w-select{
+        max-width: 276px;
+    }
+    .shopimg{
+        flex-direction: column;
+    }
     .ml312{
         margin-left: 13px;
     }
