@@ -4,14 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>contact</title>\<link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   </head>
   <body>
     <%- include('./layout/header'); -%>
-    <h2>門市據點</h2>
+    <div class="container plr12">
+      <h2 class="border-left mt96 mb32 pl16">門市據點</h2>
+      <div class="df aic mb46">
+        <h4 class="mr16">選擇分店</h4>
+        <!-- <form action="" method="post" class=""> -->
+          <select class="fz18 w-25 border-select darkgray ptb6 pl12">
+            <option>台北中山旗艦店</option>
+            <option>台北中山旗艦店</option>
+            <option>台北中山旗艦店</option>
+          </select>
+        <!-- </form> -->
+      </div>
+      <div class="df mb80 lightblack">
+        <div class="mw-40 mr24">
+          <div class="border-shopinfo">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/storepage-1.png?raw=true" alt="">
+            <h4 class="ml24 mtb8">台北中山旗艦店</h4>
+          </div>
+          <div class="border-shopinfo pl24 ptb16">
+            <ul>
+              <li class="fz20 mb8 icon-shop mr11">
+                <span class="fz20 lightblack mr11 material-symbols-outlined">call</span>
+                <p class="lightblack vmn">電話：(02)000-1234</p>
+              </li>
+              <li class="fz20 mb8 icon-shop mr11">
+                <span class="fz20 lightblack mr11 material-symbols-outlined">schedule</span>
+                <p class="lightblack vmn">營業時間：10:00-21:00</p>
+              </li>
+              <li class="fz20 icon-shop mr11">
+                <span class="fz20 lightblack mr11 material-symbols-outlined">location_on</span>
+                <p class="lightblack vmn">地址：台北市中山區南京東路25巷2-1號</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <img src="../assets/images/螢幕快照 2020-02-13 16.35.44@2x.jpg" alt="" class="mw-57">
+      </div>
+    </div>
+    
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>

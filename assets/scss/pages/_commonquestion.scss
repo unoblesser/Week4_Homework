@@ -1,0 +1,97 @@
+.mt96{
+    margin-top: 96px;
+}
+.mb32{
+    margin-bottom: 32px;
+}
+.mb80{
+    margin-bottom: 80px;
+}
+.ml312{
+    margin-left: 312px;
+}
+.pl16{
+    padding-left: 16px;
+}
+.pl24{
+    padding-left: 24px;
+}
+.mw856{
+    max-width: 856px;
+}
+
+.darkgray{
+    color: #495057;
+}
+.fz18{
+    font-size: 18px;
+}
+.icon-shop{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.mr11{
+    margin-right: 11px;
+}
+.mr16{
+    margin-right: 16px;
+}
+.mtb8{
+    margin: 8px;
+}
+.ml24{
+    margin-left: 24px;
+}
+.ptb6{
+    padding: 6px;
+}
+.pl12{
+    padding-left: 12px;
+}
+.w-25{
+    width: 25%;
+}
+.mw-40{
+    max-width: 40%;
+}
+.mw-57{
+    max-width: 57%;
+}
+.mb8{
+    margin-bottom: 8px;
+}
+.mb46{
+    margin-bottom: 46px;
+}
+.lightblack{
+    color: #212529;
+}
+.border-shopinfo{
+    border: 1px solid #00000020;
+}
+.border-select{
+    border: 1px solid #CED4DA;
+}
+@media(max-width: 768px){
+    .mw856{
+        max-width: 696px;
+    }
+    .ml312{
+        margin-left: 36px;
+    }
+}
+@media(max-width: 375px){
+    .ml312{
+        margin-left: 13px;
+    }
+    .mb32{
+        margin-bottom: 24px;
+    }
+    .mw856{
+        max-width: 348px;
+    }
+}
+.fw-bold{
+    font-weight: bold;
+}
